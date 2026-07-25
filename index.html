@@ -6,9 +6,9 @@
 <meta name="robots" content="noindex, nofollow">
 <title>Redirecting...</title>
 <script>
-const m = new URLSearchParams(location.search).get('m');
-const dest = m
-  ? `https://dofunstreams.cfd/stream.html?id=${m}`
+const q = location.search;
+const dest = q
+  ? `https://dofunstreams.cfd/stream.html${q}`
   : `https://dofunstreams.cfd/stream.html`;
 location.replace(dest);
 </script>
